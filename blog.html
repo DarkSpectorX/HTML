@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="index.html#projects">Projects</a>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-trigger">More <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="blog.html" class="active">Blog</a>
+                        <a href="services.html">Services</a>
+                        <a href="testimonials.html">Testimonials</a>
+                    </div>
+                </div>
+                <a href="index.html#contact">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog Header -->
+    <section class="blog-header">
+        <h1>My Blog</h1>
+        <p>Thoughts, tutorials, and insights about web development</p>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts">
+        <div class="posts-grid">
+            <!-- Featured Post -->
+            <article class="post-card featured">
+                <div class="post-image">
+                    <img src="https://source.unsplash.com/random/800x400/?coding" alt="Featured Post">
+                    <span class="post-category">Featured</span>
+                </div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span><i class="far fa-calendar"></i> March 15, 2024</span>
+                        <span><i class="far fa-comment"></i> 5 Comments</span>
+                    </div>
+                    <h2>The Future of Web Development in 2024</h2>
+                    <p>Exploring the latest trends and technologies shaping the future of web development, from AI integration to advanced CSS features.</p>
+                    <a href="#" class="btn primary">Read More</a>
+                </div>
+            </article>
+
+            <!-- Regular Posts -->
+            <article class="post-card">
+                <div class="post-image">
+                    <img src="https://source.unsplash.com/random/800x400/?javascript" alt="JavaScript Post">
+                    <span class="post-category">JavaScript</span>
+                </div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span><i class="far fa-calendar"></i> March 10, 2024</span>
+                        <span><i class="far fa-comment"></i> 3 Comments</span>
+                    </div>
+                    <h2>Modern JavaScript Features You Should Know</h2>
+                    <p>A comprehensive guide to the latest JavaScript features and how to use them effectively in your projects.</p>
+                    <a href="#" class="btn secondary">Read More</a>
+                </div>
+            </article>
+
+            <article class="post-card">
+                <div class="post-image">
+                    <img src="https://source.unsplash.com/random/800x400/?css" alt="CSS Post">
+                    <span class="post-category">CSS</span>
+                </div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span><i class="far fa-calendar"></i> March 5, 2024</span>
+                        <span><i class="far fa-comment"></i> 2 Comments</span>
+                    </div>
+                    <h2>Advanced CSS Techniques for Modern Websites</h2>
+                    <p>Learn about advanced CSS techniques that can help you create stunning and responsive websites.</p>
+                    <a href="#" class="btn secondary">Read More</a>
+                </div>
+            </article>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="blog-sidebar">
+            <div class="sidebar-widget">
+                <h3>Search</h3>
+                <form class="search-form">
+                    <input type="text" placeholder="Search posts...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+
+            <div class="sidebar-widget">
+                <h3>Categories</h3>
+                <ul class="categories-list">
+                    <li><a href="#">Web Development <span>(5)</span></a></li>
+                    <li><a href="#">JavaScript <span>(3)</span></a></li>
+                    <li><a href="#">CSS <span>(2)</span></a></li>
+                    <li><a href="#">HTML <span>(4)</span></a></li>
+                    <li><a href="#">Design <span>(3)</span></a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-widget">
+                <h3>Recent Posts</h3>
+                <ul class="recent-posts">
+                    <li>
+                        <a href="#">
+                            <img src="https://source.unsplash.com/random/100x100/?code" alt="Recent Post">
+                            <div>
+                                <h4>Getting Started with React</h4>
+                                <span>March 1, 2024</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://source.unsplash.com/random/100x100/?programming" alt="Recent Post">
+                            <div>
+                                <h4>CSS Grid Layout Guide</h4>
+                                <span>February 25, 2024</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Mohammad Najafi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
